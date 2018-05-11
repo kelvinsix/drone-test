@@ -8,5 +8,5 @@ pipeline:
       - yarn start
 
 services:
-  redis:
+  cache:
     image: redis:3.2-alpine

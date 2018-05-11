@@ -2,7 +2,7 @@
 console.info("Hello world");
 
 const Redis = require('ioredis');
-const cache = new Redis();
+const cache = new Redis('cache:6379');
 
 cache.on('connect', () => {
     console.log('[REDIS] Redis Connected');
