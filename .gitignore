@@ -1,0 +1,8 @@
+node_modules
+.vscode
+/coverage
+.nyc_output
+/build
+.idea
+/docker-data
+yarn-error.log

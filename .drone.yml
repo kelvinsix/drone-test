@@ -1,0 +1,12 @@
+pipeline:
+  test:
+    image: node:8.11-alpine
+    environment:
+    - NODE_ENV=ci
+    commands:
+      - yarn
+      - yarn start
+
+services:
+  redis:
+    image: redis:3.2-alpine
