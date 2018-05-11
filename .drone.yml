@@ -1,8 +1,6 @@
 pipeline:
   test:
     image: node:8.11-alpine
-    environment:
-    - NODE_ENV=ci
     commands:
       - yarn
       - yarn start
